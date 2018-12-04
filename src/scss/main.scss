@@ -4,29 +4,19 @@
 
 // Base
 
-@import 'base/variables';
-@import 'base/typography';
-@import 'base/base';
-
-// Layout
-
-@import 'layout/layout';
-@import 'layout/header';
-@import 'layout/footer';
-
-// Helpers
-
-@import 'helpers/margins';
-
-//Components
-
-@import 'components/buttons';
-@import 'components/forms';
-@import 'components/links';
-@import 'components/modal';
-@import 'components/tooltip';
+@import 'common/base';
+@import 'common/buttons';
+@import 'common/footer';
+@import 'common/header';
+@import 'common/layout';
+@import 'common/margins';
+@import 'common/modal';
+@import 'common/typography';
+@import 'common/variables';
 
 //Pages
+@import 'pages/home.scss';
+@import 'pages/login.scss';
 
 @import 'pages/home';
 

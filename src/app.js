@@ -5,7 +5,7 @@ import './js/script.js';
 
 // Styles
 
-import './scss/main.scss'
+import './scss/main.scss';
 
 // Libraries
 
