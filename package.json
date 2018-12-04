@@ -1,0 +1,37 @@
+{
+  "name": "workshop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/budi1200/workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/budi1200/workshop/issues"
+  },
+  "homepage": "https://github.com/budi1200/workshop#readme",
+  "devDependencies": {
+    "copy-webpack-plugin": "^4.6.0",
+    "css-loader": "^1.0.1",
+    "gulp": "^3.9.1",
+    "mini-css-extract-plugin": "^0.4.5",
+    "node-sass": "^4.10.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.1",
+    "sass-loader": "^7.1.0",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "url-loader": "^1.1.2",
+    "webpack": "^4.26.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.10"
+  },
+  "dependencies": {
+    "grunt": "^1.0.3",
+    "handlebars": "^4.0.12"
+  }
+}
