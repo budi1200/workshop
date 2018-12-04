@@ -87,13 +87,20 @@
 }
 
 .grid{
-	display: flex;
+	column-count: 3;
 }
 
 .meme-wrapper{
-	width: 33.33%;
+	-webkit-column-break-inside: avoid;
+  page-break-inside: avoid; /* Firefox is dumb */
+  break-inside: avoid;
 	height: fit-content;
 	height: -moz-available;
+
+	.meme-image-wrapper{
+		margin-left: 11px;
+		margin-right: 10px;
+	}
 
 	img{
 		width: 100%;
@@ -101,7 +108,8 @@
 	}
 
 	.meme-description-wrapper{
-		padding-left: 1px;
+		margin-left: 10px;
+		margin-right: 14px;
 		padding-top: 11px;
 	}
 
